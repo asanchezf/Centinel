@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/usuarios"
+            android:title="@string/usuarios" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ultimas_posiciones"
+            android:title="@string/Ultimas_posiciones" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/todas_posiciones"
+            android:title="@string/todas_las_posiciones" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/mapa_todos"
+            android:title="@string/mapa_todos" />
+    </group>
+
+    <item android:title="Otros aspectos">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/copyright"
+                android:title="Acerca de..." />
+            <!--<item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>
